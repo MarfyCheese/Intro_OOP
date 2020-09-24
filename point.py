@@ -17,6 +17,10 @@ class Point:
     def abs(self):
         return sqrt(self.x**2 + self.y**2)
 
+class rectangle:
+  
+  point1 = Point(1,1)
+  point2 = Point(4,5)
 
 def main():
     p1 = Point(3.0, 4.0)
